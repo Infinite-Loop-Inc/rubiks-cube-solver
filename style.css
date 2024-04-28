@@ -28,6 +28,7 @@ body {
   overflow-x: auto; 
   white-space: nowrap; 
   padding-left: 20px;
+  padding-bottom: 20px;
 }
 
 .screenshot {

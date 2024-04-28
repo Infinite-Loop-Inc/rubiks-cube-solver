@@ -1,0 +1,61 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+  background: linear-gradient(to bottom right, #F6F3F9, #B5D9FF); 
+  overflow: hidden; 
+  margin: 0;
+}
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100vh; 
+  flex-direction: column;
+  overflow: hidden; 
+}
+
+.title {
+  font-size: 72px;
+  background: linear-gradient(to right, #1A4DF0, #3689FF); 
+  -webkit-text-fill-color: transparent; 
+  -webkit-background-clip: text; 
+  text-align: center; 
+  margin: 0;
+}
+
+.scrollview {
+  width: 100%;
+  overflow-x: auto; 
+  white-space: nowrap; 
+  padding-left: 20px;
+}
+
+.screenshot {
+  display: inline-block;
+  width: 300px;
+  margin-right: 20px;
+  background-color: #ccc; 
+  border-radius: 30px;
+  box-shadow: 0 0px 10px rgba(0, 0, 0, 0.1); 
+}
+
+
+@media screen and (max-width: 1200px) {
+  .title {
+    font-size: 42px;
+  }
+  .screenshot {
+    width: 250px;
+    border-radius: 20px;
+  }
+}
+
+@media screen and (max-height: 800px) {
+  .title {
+    font-size: 34px;
+  }
+  .screenshot {
+    width: 200px;
+    border-radius: 20px;
+  }
+}
